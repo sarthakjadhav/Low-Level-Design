@@ -1,0 +1,9 @@
+package lldPatterns.behavioural.observer.stock_price_notification.Observer;
+
+public class MobileApp implements Observer{
+
+    @Override
+    public void update(double price) {
+        System.out.println("MobileApp is notified that new stock price is "+price);
+    }
+}
